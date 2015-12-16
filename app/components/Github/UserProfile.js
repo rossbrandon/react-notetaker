@@ -7,7 +7,6 @@ var UserProfile = React.createClass({
     },
 
     render: function() {
-        console.log('Bio: ', this.props.bio);
         return (
             <div>
                 {this.props.bio.avatar_url && <li className="list-group-item"> <img src={this.props.bio.avatar_url} className="img-rounded img-responsive"/></li>}
